@@ -1,12 +1,14 @@
 """Tests for MCP tool definitions and integration (server.py)."""
+import httpx
 import pytest
 import respx
-import httpx
 
 from mcp_tirepressure.server import (
-    get_bikes, get_bike, calc_pressure, get_recommended_pressure,
+    calc_pressure,
+    get_bike,
+    get_bikes,
+    get_recommended_pressure,
 )
-from mcp_tirepressure.weather import is_wet
 
 # --- get_bikes / get_bike (thin wrappers over bikes.py) ---
 

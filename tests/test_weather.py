@@ -1,7 +1,7 @@
 """Tests for weather module (weather.py)."""
+import httpx
 import pytest
 import respx
-import httpx
 
 from mcp_tirepressure.weather import get_weather, is_wet
 

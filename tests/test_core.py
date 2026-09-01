@@ -1,9 +1,14 @@
 """Tests for the SRAM AXS tire pressure formula (core.py)."""
-import math
 import pytest
 
 from mcp_tirepressure.core import (
-    ev5, Fg5, rim_mults, jg5, Bg5, Hg5, calc_pressure,
+    Bg5,
+    Fg5,
+    Hg5,
+    calc_pressure,
+    ev5,
+    jg5,
+    rim_mults,
 )
 
 # --- ev5: Wg5 boundary tests ---

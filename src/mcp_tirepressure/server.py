@@ -3,9 +3,11 @@ from __future__ import annotations
 
 from mcp.server import MCPServer
 
+from .bikes import get_bike as _get_bike
+from .bikes import get_bikes as _get_bikes
 from .core import calc_pressure as _calc
-from .bikes import get_bike as _get_bike, get_bikes as _get_bikes
-from .weather import get_weather as _get_weather, is_wet as _is_wet
+from .weather import get_weather as _get_weather
+from .weather import is_wet as _is_wet
 
 HOOKLESS_CAP_BAR = 4.96
 

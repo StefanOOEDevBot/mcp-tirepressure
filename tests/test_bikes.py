@@ -1,7 +1,7 @@
 """Tests for bike profiles (bikes.py)."""
 import pytest
 
-from mcp_tirepressure.bikes import BIKE_PROFILES, get_bikes, get_bike
+from mcp_tirepressure.bikes import BIKE_PROFILES, get_bike, get_bikes
 
 EXPECTED_BIKES = {
     "bmc-teamachine",
