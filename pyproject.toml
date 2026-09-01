@@ -5,12 +5,12 @@ build-backend = "hatchling.build"
 [project]
 name = "mcp-tirepressure"
 version = "0.1.0"
-description = "MCP server implementing the SRAM AXS tire pressure formula (local, keyless)"
+description = "MCP server implementing a SRAM-like tire pressure formula (local, keyless)"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "StefanOOE" }]
-keywords = ["mcp", "model-context-protocol", "tire-pressure", "sram", "cycling"]
+keywords = ["mcp", "model-context-protocol", "tire-pressure", "sram-like", "cycling"]
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",

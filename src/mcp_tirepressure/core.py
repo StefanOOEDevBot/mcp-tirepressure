@@ -1,6 +1,12 @@
-"""SRAM AXS tire pressure formula.
+"""Tire pressure formula (SRAM-like).
 
-Reverse-engineered from axs.sram.com/assets/index-DYnf3u0g.js (August 2026).
+Reverse-engineered from the SRAM AXS tire pressure calculator
+(axs.sram.com, JS bundle, August 2026). This is an independent
+implementation — not affiliated with, endorsed by, or associated
+with SRAM. Values are for guidance only and come with no warranty.
+The user is responsible for verifying that the recommended pressure
+is appropriate for their specific tire, rim, load, and riding conditions.
+
 All weights in kg, widths/diameters in mm. Returns pressure in bar.
 """
 from __future__ import annotations

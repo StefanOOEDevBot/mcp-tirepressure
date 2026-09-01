@@ -1,4 +1,4 @@
-"""MCP server exposing the SRAM tire pressure formula as tools."""
+"""MCP server exposing a SRAM-like tire pressure formula as tools."""
 from __future__ import annotations
 
 from mcp.server import MCPServer
@@ -15,7 +15,9 @@ mcp = MCPServer(
     "mcp-tirepressure",
     version="0.1.0",
     instructions=(
-        "Tire pressure calculator implementing the SRAM AXS formula. "
+        "Tire pressure calculator implementing a SRAM-like formula. "
+        "Values are for guidance only — no warranty. "
+        "Always check the tire's max pressure marking. "
         "All pressures are returned in bar. Use get_bikes() to see available "
         "bikes, get_recommended_pressure() for a one-call recommendation with "
         "live weather. Surface values: DRY, WET, SNOW."
